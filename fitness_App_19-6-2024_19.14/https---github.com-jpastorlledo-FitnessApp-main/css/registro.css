@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: -webkit-linear-gradient(315deg, #80ff00 0%, #6610f2 100%);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* display: flex; */
+ 
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+
+.contenedores{
+	justify-content: center;
+	display: flex;
+	margin-top: 50px;
+	
+	
+}
+
+#contenedor-signin{
+	margin-right: 60px;
+	border-color: black;
+}
+
+#contenedo-signup{
+	margin-left: 60px;
+	border-color: black;
+}
+
+.titulos{
+	color: black;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end; /* Alinea la barra de búsqueda y enlaces a la derecha */
+	align-items: center;
+	padding: 10px 20px; 
+	background-color: #27232C; /* Color de fondo de la barra de navegación */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0;
+	z-index: 1000; /*Esto evita que elemento con menor valor z-index se superpongan*/
+  }
+  
+  .navbar-title{
+	justify-content: center;
+	right: 20px;
+  
+  }
+  
+  /* .search-bar {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 20px;
+  } */
+  
+  .nav-links a {
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 16px;
+  }
