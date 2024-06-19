@@ -24,7 +24,7 @@
             <div class="navbar">
                 <input type="text" class="search-bar" placeholder="Buscar...">
                 <nav class="nav-links">
-                    <a href="index.html">Índice</a>
+                    <a href="index.html">la madre que me pario</a>
                     <a href="nutricion.html">Dietas</a>
                     <a href="tablasEjercicios.html">Ejercicios</a>
                     <a href="index_2.php">Register/Login</a>
