@@ -21,6 +21,7 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
+             <!-- s -->
             <div class="navbar">
                 <input type="text" class="search-bar" placeholder="Buscar...">
                 <nav class="nav-links">
