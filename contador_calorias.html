@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Datos</title>
+    <link rel="stylesheet" href="css/calculadora.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <input type="text" class="search-bar" placeholder="Buscar..." />
+      <nav class="nav-links">
+        <a class="navbar-title">Fitness App</a>
+        <a href="index.html">Índice</a>
+        <a href="nutricion.html">Dietas</a>
+        <a href="tablasEjercicios.html">Ejercicios</a>
+        <a href="">Contacto</a>
+      </nav>
+    </div>
+    
+    <div class="contenedores">
+      <div class="container">
+        <h1 class="titulo">Macros comida</h1>
+  
+        <form id="formulario">
+          <label for="Comida">Comida (100g):</label>
+                  <select id="Comida" name="Comida" required>
+                      <option value="pollo">Pollo</option>
+                      <option value="ternera">Ternera</option>
+                      <option value="arroz">Arroz</option>
+                      <option value="huevos">Huevos</option>
+                  </select>
+  
+          <label for="pollo">Pollo(g):</label>
+          <input type="number" id="pollo" name="pollo" required />
+  
+          <label for="ternera">Ternera(g):</label>
+          <input type="number" id="ternera" name="ternera" required />
+  
+          <label for="arroz">arroz(g):</label>
+          <input type="number" id="arroz" name="arroz" required />
+  
+          <label for="huevos">Huevos(g):</label>
+          <input type="number" id="huevos" name="huevos" required />
+  
+          <button class="Enviar" type="button" onclick="contar_calorias()">
+            Enviar
+          </button>
+        </form>
+        <div id="resultado"></div>
+      </div>
+  
+  
+  
+      <div class="container">
+        <h1 class="titulo">Macros cena</h1>
+  
+        <form id="formulario">
+          <!-- <label for="Comida">Comida (100g):</label>
+                  <select id="Comida" name="Comida" required>
+                      <option value="pollo">Pollo</option>
+                      <option value="ternera">Ternera</option>
+                      <option value="arroz">Arroz</option>
+                      <option value="huevos">Huevos</option>
+                  </select> -->
+  
+          <label for="pollo">Pollo(g):</label>
+          <input type="number" id="pollo" name="pollo" required />
+  
+          <label for="ternera">Ternera(g):</label>
+          <input type="number" id="ternera" name="ternera" required />
+  
+          <label for="arroz">arroz(g):</label>
+          <input type="number" id="arroz" name="arroz" required />
+  
+          <label for="huevos">Huevos(g):</label>
+          <input type="number" id="huevos" name="huevos" required />
+  
+          <button class="Enviar" type="button" onclick="contar_calorias()">
+            Enviar
+          </button>
+        </form>
+        <div id="resultado"></div>
+      </div>
+    </div>
+    
+
+
+    <script src="js/contador_calorias.js"></script>
+  </body>
+</html>

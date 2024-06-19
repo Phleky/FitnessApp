@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Datos</title>
+        <link rel="stylesheet" href="css/calculadora.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <input type="text" class="search-bar" placeholder="Buscar..." />
+            <nav class="nav-links">
+              <a class="navbar-title">Fitness App</a>
+              <a href="index.html">Índice</a>
+              <a href="nutricion.html">Dietas</a>
+              <a href="tablasEjercicios.html">Ejercicios</a>
+              <a href="">Contacto</a>
+            </nav>
+          </div>
+
+        
+    </div>
+        <div class="container-calculadora">
+        <h1 class="titulo"> Calculadora de calorias</h1>
+
+
+            <form id="formulario">
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+                
+                <label for="altura">Altura (cm):</label>
+                <input type="number" id="altura" name="altura" required>
+                
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" name="peso" required>
+                
+                <label for="actividad">Factor deportivo</label>
+                <select id="actividad" name="Factor" required>
+                    <option value="Sedentario">Sedentario</option>
+                    <option value="Poca">Poca</option>
+                    <option value="Moderada">Moderada</option>
+                    <option value="Intensa">Intensa</option>
+                    <option value="Atletas">Atletas</option>
+                </select>                
+                <button class="Enviar" type="button" onclick="mostrarDatos()">Enviar</button>
+            </form>
+            <div id="resultado"></div>  
+        </div>
+        <script src="js/calculadora.js"></script>
+    </body>
+</html>
